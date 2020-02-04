@@ -1,0 +1,38 @@
+https://www.tecmint.com/glances-an-advanced-real-time-system-monitoring-tool-for-linux/
+
+must install epel-release (epel repository) before glances!
+
+##### glances  ##########
+yum install -y glances
+# glances
+
+Meaning of Glances color code:
+
+GREEN: OK (everything is fine)
+BLUE: CAREFUL (need attention)
+VIOLET: WARNING (alert)
+RED: CRITICAL (critical)
+
+Glances Options
+Besides, several command line options, glances provides many more hot keys to find output information while glances is running. Below are the list of several hot keys.
+
+a – Sort processes automatically
+c – Sort processes by CPU%
+m – Sort processes by MEM%
+p – Sort processes by name
+i – Sort processes by I/O rate
+d – Show/hide disk I/O stats ols
+f – Show/hide file system statshddtemp
+n – Show/hide network stats
+s – Show/hide sensors stats
+y – Show/hide hddtemp stats
+l – Show/hide logs
+b – Bytes or bits for network I/Oools
+w – Delete warning logs
+x – Delete warning and critical logs
+x – Delete warning and critical logs
+1 – Global CPU or per-CPU stats
+h – Show/hide this help screen
+t – View network I/O as combination
+u – View cumulative network I/O
+q – Quit (Esc and Ctrl-C also work)
